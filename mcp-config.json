@@ -3,7 +3,7 @@
     "postgresql": {
       "command": "npx",
       "args": [
-        "@modelcontextprotocol/server-postgresql"
+        "@modelcontextprotocol/server-postgres"
       ],
       "env": {
         "POSTGRES_CONNECTION_STRING": "postgresql://mcpuser:mcppassword@localhost:5433/mcpdb"
