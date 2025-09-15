@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "postgresql": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-postgresql"
+      ],
+      "env": {
+        "POSTGRES_CONNECTION_STRING": "postgresql://mcpuser:mcppassword@localhost:5433/mcpdb"
+      }
+    }
+  }
+}
