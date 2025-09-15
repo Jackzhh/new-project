@@ -15,8 +15,16 @@
         "@modelcontextprotocol/server-github"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "your-github-token-here"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
       }
+    },
+    "git": {
+      "command": "/Users/zhenghan/.local/bin/uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        "/Users/zhenghan/CascadeProjects/new-project"
+      ]
     }
   }
 }
