@@ -8,6 +8,15 @@
       "env": {
         "POSTGRES_CONNECTION_STRING": "postgresql://mcpuser:mcppassword@localhost:5433/mcpdb"
       }
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your-github-token-here"
+      }
     }
   }
 }
