@@ -1,2 +1,0 @@
-Test file to verify Personal Access Token authentication for Git push operations.
-Created at: 2025-09-15T15:46:39+08:00
